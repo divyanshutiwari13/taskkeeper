@@ -1,0 +1,21 @@
+/* Center everything vertically & horizontally on authentication and content */
+.center-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card look */
+.card-custom {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(20, 20, 40, 0.08);
+}
+
+/* Todo item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
