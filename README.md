@@ -21,39 +21,6 @@ A simple **MERN Stack ToDo Application** with user authentication (Signup/Login)
 - **Database:** MongoDB (Mongoose)
 - **Authentication:** JSON Web Tokens (JWT)
 
-## 📂 Project Structure
-mern-todo/
-├─ backend/
-│  ├─ package.json
-│  ├─ .env.example
-│  ├─ server.js
-│  ├─ config/
-│  │   └─ db.js
-│  ├─ models/
-│  │   ├─ User.js
-│  │   └─ Todo.js
-│  ├─ middleware/
-│  │   └─ auth.js
-│  └─ routes/
-│      ├─ auth.js
-│      └─ todos.js
-└─ frontend/
-   ├─ package.json
-   ├─ index.html
-   ├─ vite.config.js
-   ├─ src/
-      ├─ main.jsx
-      ├─ App.jsx
-      ├─ api/axios.js
-      ├─ pages/
-      │   ├─ AuthPage.jsx
-      │   └─ TodoPage.jsx
-      ├─ components/
-      │   └─ ProtectedRoute.jsx
-      └─ styles.css
-
-
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -70,7 +37,6 @@ npm install
 PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
-
 
 Run Backend:
 
